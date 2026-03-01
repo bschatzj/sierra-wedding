@@ -14,6 +14,8 @@ export default function Quiz() {
     const [selected, setSelected] = useState<null | string>(null);
     const [answer] = useLocalStorage(page!, "")
 
+    const navigate = useNavigate();
+
     const handleSelect = (option: string ) => {
         setError("");
         setSelected(option);
@@ -23,9 +25,8 @@ export default function Quiz() {
         if(answer){
             navigate(`/quiz/${parseInt(page as string)}/answer/${selected}`)
         }
-    }, []);
+    }, [answer, page, navigate, selected]);
 
-    const navigate = useNavigate();
 
     const handleNavigation = () => {
         if(selected){
