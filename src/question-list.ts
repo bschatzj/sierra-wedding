@@ -5,11 +5,11 @@ export const QuestionList = [
 
     {
         question: "How did Sierra and Daksh meet?",
-        options: ["Dating app", "Rock climbing gym", "Mutual friend's birthday", "Roomate wanted post on Facebook"],
+        options: ["Dating app", "Rock climbing gym", "Mutual friend's birthday", "Roommate wanted post on Facebook"],
         answer: "Mutual friend's birthday",
         questionId: 1,
-        imageUrl: "https://media.istockphoto.com/photos/close-up-of-hands-holding-each-other-picture-id1304043304?k=6&m=1304043304&s=612x612&w=0&h=Y3Yk1YJ3o1bX6Uu0r3K1t8n5c1j3QF4bX5F8v3ZyM=",
-        explanation: ""
+        imageUrl: "https://images.zola.com/5ab273ef-8b6c-4121-8f12-375c4837794a?w=1000",
+        explanation: "June 2022 - dancing at Chop Suey"
     },
     {
         question: "What was Daksh and Sierra's halloween couples costume their first year of dating?",
@@ -17,7 +17,7 @@ export const QuestionList = [
         answer: "Wall-E and Eve",
         questionId: 2,
         imageUrl: "https://images.zola.com/cc1d8905-7e7e-4d43-b445-7fd02d96e607?w=1000",
-        explanation: ""
+        explanation: "Daksh was Wall-E and Sierra was Eve!"
     },
     {
         question: "Where did Sierra and Daksh go on their first date?",
@@ -29,8 +29,8 @@ export const QuestionList = [
     },
     {
         question: "Where was Sierra and Daksh's first international travel destination?",
-        options: ["Toronto Canada", "Mexico City Mexico", "Vancouver Canada", "San Juan Puerto Rico"],
-        answer: "Vancouver Canada",
+        options: ["Toronto, Canada", "Mexico City, Mexico", "Vancouver, Canada", "San Juan, Puerto Rico"],
+        answer: "Vancouver, Canada",
         questionId: 4,
         imageUrl: "https://th.bing.com/th/id/R.c52e90008d9a8a3cdffa5d00a9ba14f4?rik=0vIC4lxTnW29gA&pid=ImgRaw&r=0",
         explanation: ""
@@ -52,17 +52,17 @@ export const QuestionList = [
         answer: "Road Biking and Canoeing",
         questionId: 6,
         imageUrl: Ski,
-        explanation: ""
+        explanation: "Daksh competed in the road biking portion and Sierra competed in the canoe."
     },
 
 
     {
         question: "How did Daksh tear his ACL?",
         options: ["Running with Korra", "Snowboarding", "Skiing", "Playing Volleyball"],
-        answer: "Skiing",
+        answer: "Snowboarding",
         questionId: 7,
-        imageUrl: "",
-        explanation: ""
+        imageUrl: "https://wallpapers.com/images/hd/extreme-sports-snowboarding-jump-hxi9sfpdpvl8w3of.jpg",
+        explanation: "*not actual photo of Daksh snowboarding*"
     },
     {
         question: "How did Sierra break her wrist in Panama?",
@@ -85,9 +85,9 @@ export const QuestionList = [
             "Getting away hiking, climbing, or going to a concert with friends",
             "Sleeping in late and catching up on TV shows"
         ],
-        answer: "",
+        answer: "Getting away hiking, climbing, or going to a concert with friends",
         questionId: 9,
-        imageUrl: "Getting away hiking, climbing, or going to a concert with friends",
+        imageUrl: "https://images.zola.com/ab0eac20-94e1-4032-86d7-d49efe231027?w=1000",
         explanation: ""
     },
     {
@@ -140,7 +140,7 @@ export const QuestionList = [
         answer: "27",
         questionId: 13,
         imageUrl: "https://www.rd.com/wp-content/uploads/2022/04/GettyImages-1140602972-e1651249657746.jpg",
-        explanation: ""
+        explanation: "Nearly 50,000 miles traveled in those flights alone!"
     },
     {
         question: "What protein does Daksh most often cook for Sierra?",
@@ -182,7 +182,7 @@ export const QuestionList = [
         explanation: ""
     },
     {
-        question: "Which one is Korra",
+        question: "Which one is Korra?",
         options: [
             "a",
             "b",
@@ -190,7 +190,7 @@ export const QuestionList = [
             "d"
         ],
         type: "image",
-        answer: "c",
+        answer: "b",
         questionId: 17,
         imageUrl: Dog,
         explanation: "It's Korra!!! "

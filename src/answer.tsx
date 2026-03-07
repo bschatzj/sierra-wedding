@@ -23,14 +23,13 @@ const AnswerReviewCard: FC<Props> = ({
 
     const [answer, setCorrectness] = useLocalStorage(questionId!, isCorrect.toString());
 
-console.log("Stored answer correctness:", answer);
 
 
     useEffect(() => {
-        if(answer !== null) {
+        if(answer !== null && userAnswer !== 'null') {
             setCorrectness(isCorrect.toString());
         }
-    }, []);
+    }, [answer, isCorrect, setCorrectness, userAnswer]);
 
 
 

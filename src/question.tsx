@@ -22,7 +22,6 @@ const QuestionComponent: FC<Props> = ({
     selected
                                       }) => {
 
-    console.log(type)
 
     return (
         <div className="max-w-xl rounded-xl border border-contrast p-6 shadow-sm">
