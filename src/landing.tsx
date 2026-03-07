@@ -2,8 +2,8 @@ import {Link} from "react-router-dom";
 
 const Landing =  () => {
 
-    return (<div className='scroll-smooth'>
-<div className="w-full h-screen bg-fixed bg-cover bg-center flex justify-center items-end"
+    return (<div >
+<div className="w-full h-[95vh]  bg-fixed bg-cover bg-center flex justify-center items-end"
      style={{backgroundImage: "url('https://images.zola.com/8c3d9d38-7cd2-4ac8-9368-655bad31a6c8?w=1000')", backgroundPosition: "left center"}}>
 
     <div className='flex flex-col justify-center'>

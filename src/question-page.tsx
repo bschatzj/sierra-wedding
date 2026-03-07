@@ -3,6 +3,7 @@ import {QuestionList} from "./question-list.ts";
 import { useParams, useNavigate } from 'react-router-dom';
 import {useEffect, useState} from "react";
 import useLocalStorage from "./local-storage-hook.ts";
+
 export default function Quiz() {
 
 
@@ -35,9 +36,11 @@ export default function Quiz() {
             setError("Please select an answer before proceeding.");
         }
     };
+
     return (
         <div className='flex flex-col items-center p-10 justify-center bg-background min-h-screen'>
         <MultipleChoiceQuestion
+            type={currentQuestion.type}
             question={currentQuestion.question}
             options={currentQuestion.options}
             onSelect={(answer: string) => handleSelect(answer)}
