@@ -16,7 +16,7 @@ export const QuestionList = [
         options: ["Peter Pan and Tinkerbell", "Shrek and Fiona", "Wall-E and Eve", "Prince Charming and Cinderella"],
         answer: "Wall-E and Eve",
         questionId: 2,
-        imageUrl: "https://media.istockphoto.com/photos/couple-dressed-as-wall-e-and-eve-picture-id1304043304?k=6&m=1304043304&s=612x612&w=0&h=Y3Yk1YJ3o1bX6Uu0r3K1t8n5c1j3QF4bX5F8v3ZyM=",
+        imageUrl: "https://images.zola.com/cc1d8905-7e7e-4d43-b445-7fd02d96e607?w=1000",
         explanation: ""
     },
     {
@@ -24,7 +24,7 @@ export const QuestionList = [
         options: ["Ethiopian restaurant", "Kenyan restaurant", "Nepalese restaurant", "Vietnamese restaurant"],
         answer: "Kenyan restaurant",
         questionId: 3,
-        imageUrl: "https://images.zola.com/cc1d8905-7e7e-4d43-b445-7fd02d96e607?w=1000",
+        imageUrl: "https://img.freepik.com/premium-photo/kenyan-food-delicious-meals-cuisines-yummy-sweet-beverages-dinner-dessert-lunch-supper-nairobi-city_257688-4046.jpg?w=2000",
         explanation: ""
     },
     {
@@ -32,7 +32,7 @@ export const QuestionList = [
         options: ["Toronto Canada", "Mexico City Mexico", "Vancouver Canada", "San Juan Puerto Rico"],
         answer: "Vancouver Canada",
         questionId: 4,
-        imageUrl: "https://media.istockphoto.com/photos/delicious-pizza-with-various-toppings-on-wooden-table-picture-id1305154820?k=6&m=1305154820&s=612x612&w=0&h=Yk2b1YkYJ3o1bX6Uu0r3K1t8n5c1j3QF4bX5F8v3ZyM=",
+        imageUrl: "https://th.bing.com/th/id/R.c52e90008d9a8a3cdffa5d00a9ba14f4?rik=0vIC4lxTnW29gA&pid=ImgRaw&r=0",
         explanation: ""
     },
 
@@ -61,7 +61,7 @@ export const QuestionList = [
         options: ["Running with Korra", "Snowboarding", "Skiing", "Playing Volleyball"],
         answer: "Skiing",
         questionId: 7,
-        imageUrl: "https://th.bing.com/th/id/OIP.BbVCz-UTElBLmhnly9dHwQHaEJ?w=333&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3",
+        imageUrl: "",
         explanation: ""
     },
     {
