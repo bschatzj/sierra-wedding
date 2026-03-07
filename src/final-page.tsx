@@ -1,4 +1,4 @@
-import {useCallback, useEffect, useState} from "react";
+import { useEffect, useState} from "react";
 import useLocalStorage from "./local-storage-hook.ts";
 
 const SubmitPage = () => {
@@ -22,12 +22,10 @@ const SubmitPage = () => {
         return setTrueCount(count);
     }, []);
 
-    const percentage = (trueCount / localStorage.length) * 100;
-    const displayScore = Math.round(percentage);
     const correct = trueCount;
     const total = localStorage.length;
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
 
         const formURL =
