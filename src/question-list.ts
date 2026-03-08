@@ -1,7 +1,7 @@
 import Dog from "./assets/bog2.jpg"
 import Ski from "./assets/SkiToSea.jpg"
 import Wrist from "./assets/wrist.jpg"
-import YMCA from "./assets/YMCA.jpg"
+import YMCA from "./assets/ymca.jpg"
 export const QuestionList = [
 
     {
