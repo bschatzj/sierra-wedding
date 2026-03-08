@@ -1,6 +1,7 @@
 import Dog from "./assets/bog2.jpg"
 import Ski from "./assets/SkiToSea.jpg"
 import Wrist from "./assets/wrist.jpg"
+import YMCA from "./assets/YMCA.jpg"
 export const QuestionList = [
 
     {
@@ -42,7 +43,7 @@ export const QuestionList = [
         answer: "Flying Insect",
         questionId: 5,
         imageUrl: "https://th.bing.com/th/id/OIP.BbVCz-UTElBLmhnly9dHwQHaEJ?w=333&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3",
-        explanation: ""
+        explanation: "Sierra went and watched Daksh defend his PHD thesis on flying insect robots at University of Washington."
     },
 
 
@@ -88,7 +89,7 @@ export const QuestionList = [
         answer: "Getting away hiking, climbing, or going to a concert with friends",
         questionId: 9,
         imageUrl: "https://images.zola.com/ab0eac20-94e1-4032-86d7-d49efe231027?w=1000",
-        explanation: ""
+        explanation: "Any chance to be in nature just the two of them (and korra of course)  or with friends is their ideal way to spend a Saturday!"
     },
     {
         question: "At whose birthday party did Daksh and Sierra first meet?",
@@ -100,7 +101,7 @@ export const QuestionList = [
         ],
         answer: "Roshni",
         questionId: 10,
-        imageUrl: "",
+        imageUrl: "https://wallpapers.com/images/hd/birthday-balloons-pictures-e92r9493bqmm79il.jpg",
         explanation: ""
     },
     {
@@ -153,7 +154,7 @@ export const QuestionList = [
         answer: "Salmon",
         questionId: 14,
         imageUrl: "https://www.foodiecrush.com/wp-content/uploads/2019/05/Grilled-Salmon-foodiecrush.com-023-1024x1536.jpg",
-        explanation: ""
+        explanation: "Daksh is a phenomenal cook and can make a wide variety of meals, but salmon is his go-to for Sierra!"
     },
     {
         question: "What are Sierra and Daksh's preferred methods to make their coffee?",
@@ -178,7 +179,7 @@ export const QuestionList = [
         ],
         answer: "YMCA University",
         questionId: 16,
-        imageUrl: "",
+        imageUrl: YMCA,
         explanation: ""
     },
     {
