@@ -47,7 +47,7 @@ const SubmitPage = () => {
       body: formData,
     });
 
-    setSubmitted("true");
+    setSubmitted("submitted");
   };
 
   return (
@@ -58,7 +58,7 @@ const SubmitPage = () => {
         <p className="text-gray-500 text-lg">
           {trueCount} / {total} correct
         </p>
-        {submitted !== "true" ? (
+        {submitted !== "submitted" ? (
           <>
             {" "}
             <p className="text-xl font-bold text-gray-800">Tie Breaker!!!</p>
